@@ -41,8 +41,8 @@ inline void cinallclear() {
 
     //ifstream/ofstream
     inline void ifsallclear(std::ifstream& ifsac) {
-        ifsac.clear();
         ifsac.close();
+        ifsac.clear();
     } //endifsclear
 
     //allclearstringstream
@@ -52,7 +52,7 @@ inline void cinallclear() {
         ssac.clear();
     } //endallclearsstream
     
-} //cac end
+} //ackl end
 
 #endif //END:K_CACLIBRARY_K
 //devstart 2026/5/26
