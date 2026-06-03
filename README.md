@@ -10,6 +10,7 @@ This is my first time writing a library, so please be kind!
 
 * **`ackl::yncheck()`**
   Get user input and return a `ynoutput` (yes/no/empty/invalid) value.
+  NOTE: Only Y/N/y/n will be accepted.
 * **`ackl::cinallclear()`**
   Clear the error flags and discard the input buffer for `std::cin`.
 * **`ackl::ifsallclear()`**
