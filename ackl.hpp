@@ -16,7 +16,7 @@ namespace ackl {
 inline void cinallclear() {
     std::cin.clear();
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    } //CINALLCLEAREND
+    } 
 
     inline ynoutput yncheck() {
         std::string yninputcac1;
@@ -27,30 +27,27 @@ inline void cinallclear() {
         }
         if (yninputcac1 == "y" || yninputcac1 == "Y") {
             return ynoutput::yes;
-        } //y ifend
+        } 
         else if (yninputcac1 == "n" || yninputcac1 == "N") {
             return ynoutput::no;
-        } //n elseifend
+        } 
         else if (yninputcac1.empty()) {
             return ynoutput::empty;
         }
         else {
             return ynoutput::invalid;
-        } //else end
-    } //yncheckend
+        } 
+    } 
 
-    //ifstream/ofstream
     inline void ifsallclear(std::ifstream& ifsac) {
         ifsac.close();
         ifsac.clear();
-    } //endifsclear
-
-    //allclearstringstream
-
+    } 
+    
     inline void allclearsstream(std::stringstream& ssac) {
         ssac.str("");
         ssac.clear();
-    } //endallclearsstream
+    } 
     
 } //ackl end
 
