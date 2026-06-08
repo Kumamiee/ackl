@@ -18,3 +18,7 @@ This is my first time writing a library, so please be kind!
   WARNING:CLOSE THE FILE!
 * **`ackl::allclearsstream()`**
   Reset the content and clear the error flags of `std::stringstream`.
+* **`ackl::gettimelong()`**
+  Get the current high-resolution timestamp from `std::chrono::system_clock`.
+  It calculates the elapsed time since the UNIX epoch (January 1, 1970) in milliseconds and returns it as a 64-bit unsigned integer (`unsigned long long`).
+  WARNING: 64BIT AND `unsigned long long`
