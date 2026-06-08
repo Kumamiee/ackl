@@ -11,6 +11,7 @@
 #include <string>
 #include <fstream>
 #include <sstream>
+#include <chrono>
 namespace ackl {
     enum class ynoutput {yes, no, empty, invalid};
 inline void cinallclear() {
@@ -48,9 +49,14 @@ inline void cinallclear() {
         ssac.str("");
         ssac.clear();
     } 
+    inline unsigned long long gettimelong() {
+        auto timeackl = std::chrono::system_clock::now();
+        auto durationackl = timeackl.time_since_epoch();
+        return std::chrono::duration_cast<std::chrono::milliseconds>(durationackl).count();
+    }
     
 } //ackl end
 
 #endif //END:K_CACLIBRARY_K
 //devstart 2026/5/26
-//devlastes 2026/6/7
+//devlastes 2026/6/8
