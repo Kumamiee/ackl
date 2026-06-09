@@ -17,7 +17,7 @@ namespace ackl {
 inline void cinallclear() {
     std::cin.clear();
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    } 
+    }
 
     inline ynoutput yncheck() {
         std::string yninputcac1;
