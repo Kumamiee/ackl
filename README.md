@@ -2,7 +2,7 @@
 
 This is my first time writing a library, so please be kind! 
 
-* **Requirement:** C++17 or later is recommended.
+* **Requirement:** C++11 or later is recommended.
 
 ---
 
