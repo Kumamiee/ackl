@@ -22,10 +22,6 @@ inline void cinallclear() {
     inline ynoutput yncheck() {
         std::string yninputcac1;
         std::getline(std::cin, yninputcac1);
-        if (std::cin.fail()) {
-            cinallclear();
-            return ynoutput::invalid;
-        }
         if (yninputcac1 == "y" || yninputcac1 == "Y") {
             return ynoutput::yes;
         } 
