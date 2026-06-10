@@ -4,8 +4,8 @@
  * Requirement: C++11 or later
  */
  //Dev by Kumamiee
-#ifndef K_CACLIBRARY_K //K_CACLIBRARY_K
-#define K_CACLIBRARY_K
+#ifndef K_ACKLLIBRARY//K_ACKLLIBRARY
+#define K_ACKLLIBRARY
 #include <iostream>
 #include <limits>
 #include <string>
@@ -53,6 +53,6 @@ inline void cinallclear() {
     
 } //ackl end
 
-#endif //END:K_CACLIBRARY_K
+#endif //END:K_ACKLLIBRARY
 //devstart 2026/5/26
 //devlastes 2026/6/10
